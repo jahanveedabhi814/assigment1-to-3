@@ -1,0 +1,94 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+}
+.grid-container{
+    width: 75%;
+    height: 75vh;
+    margin: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+
+}
+.item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    color:white;
+
+}
+#item1{
+    background-color: lightskyblue;
+
+}
+#item2{
+    background-color: rgb(255, 68, 0);
+}
+#item3{
+    background-color: blue;
+}
+#item4{
+    background-color: yellow;
+}
+#item5{
+    background-color:purple;
+}
+#item6{
+    background-color:lightgreen;
+}
+
+#item7{
+    background-color:orange;
+}
+
+#item8{
+    background-color:lightseagreen;
+}
+#item9{
+    background-color:rgb(128, 0, 0) ;
+}
+@media(max-width:658px){
+    #item1{
+        background-color: crimson;
+    }
+    #item2{
+        background-color:burlywood;
+    }
+    #item3{
+        background-color:darkturquoise;
+    }
+    #item4{
+        background-color:palevioletred;
+    }
+    #item5{
+        background-color: grey;
+    }
+    #item6{
+        background-color:burlywood ;
+    }
+    #item7{
+        background-color: goldenrod;
+    }
+    #item8{
+        background-color:chocolate;
+    }
+    #item9{
+        background-color:cyan;
+    }
+}
